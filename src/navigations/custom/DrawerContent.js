@@ -36,11 +36,11 @@ const DrawerContentItems = props => {
                   style={styles.icon}
                 />
               )}
-              label="Refer & Earn"
+              label="Redux Data"
               labelStyle={styles.label}
               onPress={() => {
                 props.navigation.closeDrawer();
-                props.navigation.navigate('Refer');
+                props.navigation.navigate('Redux');
               }}
             />
             <DrawerItem
@@ -70,7 +70,7 @@ const DrawerContentItems = props => {
               labelStyle={styles.label}
               onPress={() => {
                 props.navigation.closeDrawer();
-                props.navigation.navigate('Login');
+                props.navigation.navigate('Support');
               }}
             />
             <DrawerItem

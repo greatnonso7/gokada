@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import feedback from './feedback';
+import {searchRobots, requestRobots} from './cats';
 
-const appReducer = combineReducers({feedback});
+const appReducer = combineReducers({searchRobots, requestRobots});
 
 export default appReducer;
