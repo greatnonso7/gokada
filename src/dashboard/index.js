@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {images} from '../images';
@@ -15,6 +16,9 @@ const Dashboard = ({navigation}) => {
         leftIcon={icons.alignLeft}
         onPressLeftIcon={() => navigation.toggleDrawer()}
       />
+      <View style={{justifyContent: 'center', alignItems: 'center'}}>
+        <Text style={{fontSize: hp(20)}}>Home Screen</Text>
+      </View>
     </View>
   );
 };
